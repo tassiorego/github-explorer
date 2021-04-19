@@ -1,7 +1,9 @@
 import React from "react";
+import App from './App'
 
-function App() {
-  return <h1>Rolou</h1>
+
+function Web() {
+  return <App />
 }
 
-export default App;
+export default Web;
