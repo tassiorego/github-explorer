@@ -1,9 +1,4 @@
-import React from "react";
+import { render } from "react-dom";
 import App from './App'
 
-
-function Web() {
-  return <App />
-}
-
-export default Web;
+render(<App/>, document.getElementById('root'))
